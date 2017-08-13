@@ -17,13 +17,13 @@ var offerOptions = {
 shareUrl.value = document.location.href;
 
 var STUN = {
-    'url': 'stun:stun.l.google.com:19302',
+    'url': 'stun:35.199.31.138:3478',
 };
 
 var TURN = {
-    url: 'turn:numb.viagenie.ca',
-    username: 'nicolas.antoniazzi@gmail.com',
-    credential: 'nico_anto'
+    url: 'turn:35.199.31.138:3478',
+    username: 'techio',
+    credential: 'techio'
 };
 
 var config = 
