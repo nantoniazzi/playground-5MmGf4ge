@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+}
+
+video {
+  width: 320px;
+  height: 240px;
+  border: solid 1px black;
+  background-color: grey;
+}
+
+.webcams {
+    display: flex;
+}
+
+.webcam {
+    flex: 1;
+  text-align: center;
+}
+
+.legend {
+    text-align: center;
+    margin: 5px;
+}

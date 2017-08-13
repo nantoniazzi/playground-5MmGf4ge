@@ -1,0 +1,12 @@
+title : Code the new Skype in 30 minutes
+plan:
+  - title: Play in local
+    statement: markdowns/local.md
+  - title: Signaling server
+    statement: markdowns/server.md
+
+projects:
+  "default":
+    root: /projects
+    buildCommand: sh build.sh
+    runner: node:alpine
